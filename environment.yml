@@ -1,0 +1,35 @@
+name: binder-box
+channels:
+    - conda-forge
+dependencies:
+    - jupyterlab
+    - dask
+    - notebook
+    - nbconvert
+    - ipykernel
+    - xarray
+    - rasterio
+    - fiona
+    - cartopy
+    - statsmodels
+    - scikit-image
+    - scikit-learn
+    - folium
+    - seaborn
+    - ipywidgets
+    - ipyleaflet
+    - widgetsnbextension
+    - matplotlib
+    - pandas
+    - scipy
+    - python>=3.7
+    - gdal>=3.0.4
+    - tqdm
+    - libgdal>=3.0.4
+    - jupyter_contrib_nbextensions
+    - widgetsnbextension
+    - ipympl
+    - pip
+    - pip:
+        - pcse
+        - nbgitpuller
