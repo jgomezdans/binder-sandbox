@@ -19,7 +19,7 @@ dependencies:
     - ipywidgets
     - ipyleaflet
     - widgetsnbextension
-    - matplotlib
+    - matplotlib-base
     - pandas
     - scipy
     - python>=3.7
