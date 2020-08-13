@@ -2,6 +2,7 @@ name: binder-box
 channels:
     - conda-forge
 dependencies:
+    - python=3.7
     - jupyterlab
     - dask
     - notebook
@@ -22,7 +23,6 @@ dependencies:
     - matplotlib-base
     - pandas
     - scipy
-    - python>=3.7
     - gdal>=3.0.4
     - tqdm
     - libgdal>=3.0.4
