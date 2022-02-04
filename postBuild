@@ -9,5 +9,5 @@ jupyter nbextension enable python-markdown/main
 jupyter labextension install @jupyterlab/geojson-extension 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install jupyter-leaflet
-jupyter trust notebooks/*.ipynb *.ipynb
+#jupyter trust notebooks/*.ipynb *.ipynb
 
