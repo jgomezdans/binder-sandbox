@@ -23,6 +23,8 @@ dependencies:
   - jupyter_contrib_nbextensions
   - python=3.9
   - nomkl
+  - statsmodels
+  - distributed
   - netCDF4
   - scipy
   - numpy
@@ -53,3 +55,4 @@ dependencies:
     - pygeotile
     - pystac-client
     - stackstac
+    - cdsapi
