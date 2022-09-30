@@ -3,6 +3,87 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - astropy
+  - pytest
+  - seaborn
+  - hdf5
+  - flake8
+  - mamba
+  - black
+  - folium
+  - pandocfilters
+  - 
+  - pyephem
+  - tensorflow
+  - beautifulsoup4
+  - statsmodels
+  - scikit-image
+  - scikit-learn
+  - geemap
+  - cartopy
+  - folium
+  - localtileserver
+  - git
+  - jupyterlab
+  - nbconvert
+  - ipympl
+  - yapf
+  - autopep8
+  - fsspec
+  - pycodestyle
+  - ipywidgets
+  - ipyleaflet
+  - widgetsnbextension
+  - gdal
+  - libgdal
+  - rasterio
+  - xarray
+  - fiona
+  - shapely
+  - geopandas
+  - tqdm
+  - jupyter_contrib_nbextensions
+  - python=3.9
+  - nomkl
+  - statsmodels
+  - distributed
+  - netCDF4
+  - scipy
+  - numpy
+  - matplotlib
+  - pandas
+  - ipython
+  - jupyter_console
+  - jupyter_contrib_nbextensions
+  - pip
+  - matplotlib
+  - sphinx>=1.6
+  - nbsphinx
+  - numpydoc
+  - xlrd
+  - scipy
+  - dask
+  - pyproj
+  - seaborn
+  - pip:
+    - nbgitpuller
+    - sphinx_rtd_theme
+    - urlpath
+    - mknotebooks
+    - jupyter_contrib_nbextensions
+    - mkdocs-jupyter
+    - pymdown-extensions
+    - pcse
+    - pygeotile
+    - pystac-client
+    - stackstac
+    - cdsapi
+    - retry
+      name: uclnceo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
   - geemap
   - cartopy
   - folium
@@ -57,3 +138,9 @@ dependencies:
     - stackstac
     - cdsapi
     - retry
+    - mkdocs-jupyter
+    - urlpath
+    - mknotebooks
+    - mkdocs-material
+    - mkdocs-exclude
+    - mkdocs-git-revision-date-localized-plugin
