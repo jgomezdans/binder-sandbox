@@ -3,6 +3,9 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - astropy
+  - pyephem
+  - tensorflow
   - geemap
   - cartopy
   - folium
